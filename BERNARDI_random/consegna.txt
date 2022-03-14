@@ -1,0 +1,2 @@
+generare 10 numeri casuali (da 1 a 100) e memorizzarli in un array da 10.
+Visualizzarli in una table
