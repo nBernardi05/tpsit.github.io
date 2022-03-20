@@ -13,12 +13,12 @@ body {
 a {
     color:whitesmoke;
 }
-header {
+/*header {
     border: none;
     background-color: crimson;
     margin: -20px;
-    padding: 20px;
-}
+    padding: 20px; 
+} */
 .active {
     background-color: blue;
     border-radius: 15px;
