@@ -8,7 +8,7 @@ function main(){
 
 function valorizzaArray(max){
     let array = []
-    for(let i=0; i<=max; i++){
+    for(let i=0; i<max; i++){
         array[i] = i+1
     }
     return array
