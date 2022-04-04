@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Bernardi Nicola">
+    <meta name="description" content="Verifica: array di numeri primi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/core.css">
+    <script src="js/core.js"></script>
+    <title>Verifica: Array di numeri primi</title>
+    <style id="stil">
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h2>inLogica</h2>
+        <p><small>Sponsor: <a href="https://portalenicola.it">Il Portale di Nicola</a></small></p>
+        <nav>
+            <h5><a href="" class="active">Home page</a>  <a href="html/news.html">News</a></h5>
+        </nav>
+    </header>
+    <h1>inLogica</h1>
+    <h4>Il Portale Interattivo</h4>
+    <section>
+        <h3>Array di numeri primi</h3>
+        <article class="dati">
+            <label for="inter">L'intervallo tra cui trovare i numeri primi: </label>
+            <input type="number" id="inter" value="13">
+            <input type="button" onclick="main()" value="Esegui">
+        </article>
+        <div class="tabDiv">
+            <table id="tab">
+            
+            </table>
+        </div>
+    </section>
+    <footer>
+        <h5>inLogica</h5>
+        <p>Scegli la grafica:</p>
+        <input type="radio" value="Classica" name="stile" id="cl" onclick="stile()" style="display: inline;" checked><label for="cl" style="display: inline;">Classica</label>
+        <input type="radio" value="Centrata" name="stile" id="ce" onclick="stile()"><label for="ce" style="display: inline;">Centrata</label>
+    </footer>
+</body>
+</html>
