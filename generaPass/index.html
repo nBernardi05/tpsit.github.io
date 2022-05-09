@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Bernardi Nicola">
+    <meta name="description" content="tris">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/core.css">
+    <script src="js/core.js"></script>
+    <title>Tris</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h2>IlBerna Utility</h2>
+        <p><small>Sponsor: <a href="https://portalenicola.it">Il Portale di Nicola</a></small></p>
+        <nav>
+            <h5><a href="" class="active">Home page</a>  <a href="html/news.html">News</a></h5>
+        </nav>
+    </header>
+    <h1>IlBerna Utility</h1>
+    <h4>Gli Strumenti per te</h4>
+    <main>
+        <h2>Generatore di password sicure</h2>
+        <section class="sec">
+            <form>
+                <label for="lettereMin">Lettere minuscole:</label>
+                <input type="number" value="3" id="lettereMin" onchange="aggiornaNcar()">
+                <label for="lettereMai">Lettere maiuscole:</label>
+                <input type="number" value="2" id="lettereMai" onchange="aggiornaNcar()">
+                <label for="numer">Numeri:</label>
+                <input type="number" value="2" id="numer" onchange="aggiornaNcar()">
+                <label for="symb">Simboli:</label>
+                <input type="number" value="1" id="symb" onchange="aggiornaNcar()">
+                <input type="button" onclick="generatePass()" value="Genera password sicura">
+            </form>
+        </section>
+        <section class="sec">
+            <p class="subtitle">I caratteri della tua password sono:</p>
+            <p class="chara" id="nChar">8</p>
+            <p>La tua password è <span id="generated">-----</span></p>
+        </section>
+    </main>
+    <footer>
+        <h5>IlBerna Utility</h5>
+        <p>Generatore di password sicure.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,77 @@
+label {
+    display: block;
+}
+
+body {
+    background-color: #133250;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a {
+    color:whitesmoke;
+}
+header {
+    border: none;
+    background-color: crimson;
+    margin: -20px;
+    padding: 20px;
+    overflow: hidden;
+}
+.active {
+    background-color: blue;
+    border-radius: 15px;
+}
+nav h5 a {
+    font: 250;
+}
+h1 {
+    text-decoration: underline;
+}
+section {
+    border-radius: 15px; border:solid;
+    padding: 10px;
+    text-align: center;
+    width: 48%;
+    float:left;
+    margin-bottom: 20px;
+}
+footer p {
+    font-size: 1.2ch;
+}
+footer {
+    border: none;
+    background-color: crimson;
+    margin: -10px;
+    overflow: hidden;
+    padding: 3px;
+    margin-top: 14px;
+    clear: both;
+}
+
+
+.sec {
+    text-align: center;
+}
+
+input[type="button"]{
+    border-radius: 5px 10px 5px 10px; border: solid; border-color: white;
+    border-width: 2px;
+    background-color: red;
+    color: whitesmoke;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+input[type="number"]{
+    border-radius: 10px 5px 10px 5px; border: solid; border-color:whitesmoke;
+}
+.chara{
+    font-size: 8ch;
+    margin-top: -25px;
+    color: red;
+}
+#generated{
+    font-weight: bolder;
+}
