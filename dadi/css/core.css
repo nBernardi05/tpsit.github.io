@@ -1,7 +1,11 @@
 label {
     display: block;
 }
-
+@media only screen and(max-width:800px){
+    .sec{
+        width: 100%;
+    }
+}
 body {
     background-color: #133250;
     color: white;
@@ -63,11 +67,12 @@ th{
     display: inline-table;
     border-collapse: collapse;
 }
-
-.sec {
-    text-align: center;
-    width: 48%;
-    float:left;
+@media only screen and (min-width:800px){
+    .sec {
+        text-align: center;
+        width: 48%;
+        float:left;
+    }
 }
 
 input[type="button"]{
@@ -87,6 +92,7 @@ input[type="number"]{
 .chara{
     font-size: 8ch;
     margin-top: -25px;
+    margin-bottom: -20px;
     color: red;
 }
 #generated{
