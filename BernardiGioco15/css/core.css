@@ -1,0 +1,116 @@
+/*
+    FOGLIO DI STILE DEL GIOCO DEL 15
+    ©BERNARDI NICOLA
+*/
+table tbody tr td{
+    border: solid black;
+    text-align: center;
+    width: 125px;
+    height: 125px;
+}
+
+
+main fieldset{
+    margin: 0;
+    padding: 10px;
+    position: static;
+    border: 0;
+    top: auto; left: auto;
+    float: none;
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    border: solid;
+    border-style: double;
+    border-width: 4px;
+    border-radius: 10px;
+    text-align: center;
+}
+label[for=rang]{
+    display: block;
+    margin-top: 10px; margin-bottom: 10px;
+}
+main fieldset legend {
+    display: block; padding-left: 2px; padding-right: 2px; border: none; float: none; width: auto;
+    text-align: center;
+    
+}
+.divtab table{
+    border:solid;
+    border-collapse: collapse;
+    min-width: 500px;
+    min-height: 500px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divtab{
+    text-align: center;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.classifica{
+    float: right;
+}
+.classifica table thead th{
+    border:solid;
+
+}
+.classifica table tr td{
+    height: 95px;
+}
+.classifica table{
+    text-align: center;
+    max-height: 500px;
+}
+
+p button {
+    display: inline-block;
+}
+
+
+input[type=number]{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.pti{
+    font-size: 4vh;
+    text-align: center;
+}
+#pti{
+    font-weight: lighter;
+}
+.time{
+    font-size: 4vh;
+    float: right;
+    width: 225px;
+}
+#time{
+    font-weight: lighter;
+}
+.mov{
+    font-size: 4vh;
+    float: left;
+}
+#moss{
+    font-weight: lighter;
+}
+#ra{
+    font-size: large;
+}
+.tit {
+    font-size:larger;
+    display: inline;
+    margin-left: 30px;
+    
+}
+h1{
+    display: inline;
+    padding-left: 20px;
+}
+header{
+    margin-bottom: 10px;
+}
