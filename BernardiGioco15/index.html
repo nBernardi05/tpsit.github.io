@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nicola Bernardi">
+    <meta name="description" content="Il famosissimo gioco del 15">
+    <script src="js/core.js"></script>
+    <script src="js/essential.js"></script>
+    <link rel="stylesheet" href="css/core.css">
+    <title>Gioco del 15</title>
+    <style id="stil">
+
+    </style>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body onload="fillHeader('Home Page')">
+    <header id="nav">
+        
+    </header>
+    <main>
+        <fieldset>
+            <legend>Pannello di controllo</legend>
+            <label for="dim">Dimensione: <input type="number" id="dim" value="4"></label>
+            <label for="rang">Quante volte vuoi mescolare: <small>10</small><input type="range" id="rang" min="10" max="200" value="95" oninput="viewRange()"><small>200</small>--><span id="ra">95</span></label>
+            <p class="time">Tempo: <span id="time">0:0:0</span></p>
+            <p class="mov">Mosse: <span id="moss">0</span></p>
+            <p class="pti">Punteggio: <span id="pti">0</span></p>
+            <button onclick="generaArray()" class="btn btn-primary">Genera</button>
+            <button onclick="pausaa()" class="btn btn-warning" id="pau" disabled>Pausa</button>
+            <button onclick="salva()" id="sav" class="btn btn-success" disabled>Salva</button>
+            <button onclick="caricaP()" class="btn btn-info" id="car">Carica</button>
+        </fieldset>
+        <div class="divtab">
+            <table>
+                <tbody id="campo">
+                    <tr>
+                        <td>Premi il tasto genera per iniziare.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="classifica">
+            <table>
+                <thead>
+                    <th>
+                        Posizione
+                    </th>
+                    <th>
+                        Nome
+                    </th>
+                    <th>
+                        <span title="5000 * mescolamento / le mosse">Punteggio</span>
+                    </th>
+                </thead>
+                <tbody id="cla">
+                    <tr>
+                        <td>1</td>
+                        <td>COM1</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>COM2</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>COM3</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>COM4</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>COM5</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
