@@ -59,6 +59,7 @@ function generaArray(){
  */
 function caricaP(){
     let ob = JSON.parse(localStorage.getItem('_saved'))
+    ob = JSON.parse(ob)
     if(confirm("Vuoi davvero caricare la partita " + ob.nome + '(' + ob.punti + ' punti per ' + ob.mosse + ' mosse in ' + ob.ho + 'h, ' + ob.mi + "', " + ob.se + "''" + '?) La partita attuale verrà persa.')){
         arr = ob.disp
         for(let i=0; i<arr.length; i++){
