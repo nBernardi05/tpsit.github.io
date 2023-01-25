@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nicola Bernardi, Edoardo Dumitrasc">
+        <meta name="description" content="Blackjack">
+    <title>BlackJack</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/core.css">
+</head>
+
+<body id="body">
+  <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
+    <div class="container-fluid">
+      <img src="img/logo.png" class="logo rounded-circle" alt="logo">
+      <a class="navbar-brand" href="#">Blackjack</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample01">
+        <ul class="navbar-nav me-auto mb-2">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="html/credits.html">Credits</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <h1>BlackJack</h1>
+    <div class="controlPanel">
+        <h3>Pannello di Controllo</h3>
+        <button type="button" class="btn btn-success" onclick="main()">Start Game</button>
+        <button type="button" class="btn btn-info" onclick="chiamacarta()">Chiama carta</button>
+        <button onclick="stai()" class="btn btn-dark">Stai</button>
+        <div id="buttondivisione"></div>
+    </div>
+    <div id="developer">
+
+    </div>
+    <div class="puntata">
+        <h3>Game Menu</h3>
+        <!-- <button type="button" class="btn btn-dark" onclick="punta(100)">100</button>
+        <button type="button" class="btn btn-danger" onclick="punta(50)">50</button>
+        <button type="button" class="btn btn-success" onclick="punta(25)">25</button>
+        <button type="button" class="btn btn-info" onclick="punta(10)">10</button>
+        <button type="button" class="btn btn-warning" onclick="punta(5)">5</button>-->
+        <!-- <img src="img/fish5.png" alt="" class= "rounded-circle"  onclick="punta(5)"> -->
+        <img src="img/fish5.png" alt="5" class= "rounded-circle chip"  onclick="punta(5)">
+        <img src="img/fish10.png" alt="10" class="rounded-circle chip"  onclick="punta(10)">
+        <img src="img/fish25.png" alt="25" class="rounded-circle chip"  onclick="punta(25)">
+        <img src="img/fish50.png" alt="50" class="rounded-circle chip"  onclick="punta(50)">
+        <img src="img/fish100.png" alt="100" class="rounded-circle chip"  onclick="punta(100)">
+        <img src="img/allIn.png" alt="all in" class="rounded-circle chip" onclick="punta('allin')" id="allin">
+
+        <h4>I tuoi fondi: <span id="fond" class="risalta">500</span></h4>
+        <h4>La tua puntata: €<span class="risalta" id="att">0</span></h4>
+        
+    </div>
+    <main>
+        <div class="banco" id="banco">
+
+        </div>
+        <div class="player" id="player">
+        </div>
+    </main>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+
+</html>

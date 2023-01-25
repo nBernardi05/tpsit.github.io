@@ -1,0 +1,45 @@
+.carta p{
+    font-size: 10ch;
+    text-align: center;
+}
+.carta{
+    border:solid black;
+    border-radius: 10px;
+    width: fit-content;
+    text-align: center;
+    display: inline-block;
+    height: 200px;
+    overflow: hidden;
+}
+.cartar {
+    border: solid red;
+}
+.cartar p {
+    color:red;
+}
+.player{
+    float:right;
+    display: inline;
+    margin-right: 10px;
+}
+.banco{
+    display: inline-block;
+    margin-left:10px;
+}
+
+body{
+     background-color: greenyellow; 
+     background: transparent url(../img/opacitySfondo.jpg);
+     background-size: cover;
+     
+}
+.logo {
+    width: 70px;
+}
+.chip {
+    width: 75px;
+}
+
+button{
+    margin-left: 10px;
+}
