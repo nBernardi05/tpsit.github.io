@@ -1,5 +1,5 @@
 # Tpsit
-[Sito TPSIT]https://tpsit.nbernardi.tk
+[Sito TPSIT](https://tpsit.nbernardi.tk)
 Questo sito lo userò per hostare il mio lavoro di TPSIT.
 Sto cercando di portare anche le **applicazioni Android** oltre che ai **siti web**
 Tutto quello che è caricato è allo scopo di aiutare chi ne ha bisogno e per scopo didattico.
