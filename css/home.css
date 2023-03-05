@@ -45,3 +45,29 @@ footer {
 #imgg {
     float: right;
 }
+body {
+    background-color:#052134;
+}
+h2 {
+    color:white;
+}
+header {
+    border-radius:15px;
+    border:solid;
+    border-color:red;
+}
+.ico {
+    width: 20%;
+    
+}
+.ico2 {
+    width: 21%;
+}
+
+.details {
+    border-radius: 15px;
+    border: solid red;
+    float: right;
+    height:30vh;
+    width: 58%;
+}
