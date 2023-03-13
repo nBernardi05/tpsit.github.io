@@ -18,13 +18,44 @@ p {
 h2 {
     color:orange;
 }
-h3, h4 {
-    color:aqua;
+h3 {
+    color:aquamarine;
 }
 button {
     border: solid red;
     border-radius: 10px;
     font-size: 20px;
     background-color: white;
-    width: 10%;
+    width: 20%;
+}
+.lav {
+    border:solid aqua;
+    margin:10px;
+    border-radius: 20px 0px;
+}
+h4 {
+    color:white;
+    font-style: italic;
+    text-decoration:underline;
+}
+.lav img {
+    width: 30%;
+    display: inline-block;
+    
+}
+@media only screen and (max-width:799px) {
+    .lav img {
+        width: 49%;
+        display: inline-block;
+    }
+    button {
+        border: solid red;
+        border-radius: 10px;
+        font-size: 20px;
+        background-color: white;
+        width: 100%;
+    }
+    *{
+        text-align: center;
+    }
 }
