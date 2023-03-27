@@ -6,6 +6,7 @@ Tutto quello che è caricato è allo scopo di aiutare chi ne ha bisogno e per sc
 **Il sito è totalmente opensource** (come potete vedere)
 
 ## Lista novità:
+- 27 marzo 2023: **creata licenza GNU Affero General Public License v3.0**
 - 13 marzo 2023: **aggiunta la pagina Android**
 - 5 marzo 2023: **Nuova UI**
 
